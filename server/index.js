@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5001;
 
 // 4. Connect to your MongoDB Database.
 // This line requires you to have MONGODB_URI in your .env file.
-const dbURI = process.env.MONGODB_URI;
+const dbURI = process.env.MONGODBB_URI;
 if (!dbURI) {
     console.error('FATAL ERROR: MONGODB_URI is not defined in .env file.');
     process.exit(1); // This stops the server if the database string is missing.
