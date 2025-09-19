@@ -13,7 +13,7 @@ const projectData = [
     title: "Portfolio",
     description: "A fully responsive personal portfolio website built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, featuring a modern UI with dynamic components and animations. The backend handles contact form submissions with email integration, stores portfolio content in MongoDB, and provides secure APIs to manage projects, skills, and achievements.",
     tech: ["MongoDB", "React", "Node","Angular"],
-    liveLink: "https://gayatrikadam-portfolio.netlify.app/", // Link to Google Play or a demo video
+    liveLink: "https://gayatriportfolio8.netlify.app/", // Link to Google Play or a demo video
     repoLink: "https://github.com/gayatrik810/portfolio", // IMPORTANT: Add your GitHub repo link here
   },
     {
