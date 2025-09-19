@@ -33,7 +33,7 @@ const Contact = () => {
 
         try {
             // This is the API call to your backend
-            const response = await fetch('/api/contact', { // Using the new, correct route
+            const response = await fetch('https://portfolio-backend-e2su.onrender.com/api/contact', { // Using the new, correct route
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
